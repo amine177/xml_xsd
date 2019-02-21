@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<!-- An xml document without any namespace -->
+<list
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="xsd_no_xml_ns.xsd">
+</list>
