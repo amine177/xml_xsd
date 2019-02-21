@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Namespace only XSD code -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	elementFromDefault="qualified">
+	<xs:element name="list">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element macOccurs="unbounded" ref="recipe"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

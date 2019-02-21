@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Giving a namespace for target code (not xsd code) -->
+<schema
+	xmlns='http://www.w3.org/2000/10/XMLSchema'
+	targetNamespace='http://example.com/namespace'
+	xmlns:t='http://example.com/namespace'>
+
+	<element name='list'>
+		<complexType>
+			<sequence>
+				<element ref='t:recipe' maxOccurs='unbounded'/>
+			</sequence>
+		</complexType>
+	</element>
+</schema>
