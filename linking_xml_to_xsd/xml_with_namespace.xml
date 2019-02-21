@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- illustrating linking an XSD to an XML which have
+a namespace 'recipes.com' -->
+<ex:list
+	xmlns:ex="http://recipes.com/"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://recipes.com/ xsd_xml_with_namespace.xsd"
+	>
+</ex:list>
