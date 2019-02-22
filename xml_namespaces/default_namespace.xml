@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- xmllint binding_a_namespace.xml to validate -->
+<!-- illustrating the {default namespace} -->
+<!-- Our {default namespace} will be http://defaultlib.com -->
+<!-- Book, Title and Author are part of {default namespace} -->
+<Book xmlns="http://defaultlib.com">
+	<Title>The metamorphisis</Title>
+	<Author>Franz Kafka</Author>
+	<!-- Overriding the {default namespace -->
+	<!-- ISBN is part of masterpub... as the new {default namespace} -->
+	<ISBN xmlns="http://www.masterpublisher.com">
+		05-TN-101
+	</ISBN>
+	<!-- Price is part of defaultlib.com  as the {default namespace} -->
+	<Price>3TND</Price>
+</Book>
