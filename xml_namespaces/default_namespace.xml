@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- xmllint binding_a_namespace.xml to validate -->
 <!-- illustrating the {default namespace} -->
-<!-- Our {default namespace} will be http://defaultlib.com -->
+<!-- Our {default namespace} will be http://www.defaultlib.com -->
 <!-- Book, Title and Author are part of {default namespace} -->
-<Book xmlns="http://defaultlib.com">
+<!-- The attribute id is part of {no namespace} -->
+<!-- While the attribute pages is part of stats.com -->
+<Book id="1" pfx:pages="300"
+	xmlns="http://www.defaultlib.com"
+	xmlns:pfx="http://www.stats.com>
 	<Title>The metamorphisis</Title>
 	<Author>Franz Kafka</Author>
 	<!-- Overriding the {default namespace -->
