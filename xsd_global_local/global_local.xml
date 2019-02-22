@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:book xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.library.com global_local.xsd"
+	xmlns:tns="http://www.library.com" tns:isbn="03-34">
+	<tns:author>Coelho</tns:author>
+	<tns:title>Le petit prince</tns:title>
+</tns:book>
+
