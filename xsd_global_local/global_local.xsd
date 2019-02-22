@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- A global attribute or element is one that is declared
+then defined by some ref -->
+<xs:schema xmlns:xs="https://www.w3.org/2001/XMLSchema">
+	<!-- Here author is a global element -->
+	<xs:element name="author" type="xs:string"/>
+	<!-- Here isbn is a global attribute -->
+	<xs:attribute name="isbn" type="xs:string"/>
+	<xs:element name="book" type="bookType"/>
+	<!-- Creating a complexType -->
+	<xs:complexType name="bookType">
+		<xs:sequence>
+			<!-- Referencing author -->
+			<xs:element ref="author" maxOccurs="unbounded"/>
+			<!-- title is local -->
+			<xs:element name="title" type="xs:string"/>
+		</xs:sequence>
+		<!-- isbn is an attribute of book -->
+		<xs:attribute ref="isbn"/>
+	</xs:complexType>
+</xs:schema>
