@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Here we are binding library..com to the lib prefix -->
+<!-- Library, Book, Title and Author are part of www.libr...com -->
+<Library xmlns:lib="http://www.library.com">
+	<!-- Book is part of library.com -->
+	<Book>
+		<Title>Kafka by the shore</Title>
+		<Author>Haruki Murakami</Author>
+	</Book>
+	<!-- But this Book is associated with special.com -->
+	<Book xmlns:lib="http://www.special.com">
+		<!-- And so is Title and Author -->
+		<!-- UTF-8 we should be ok (ibn khaldoun)hhh -->
+		<Title>المقدمة</Title>
+		<Author>ابن خلدون</Author>
+	</Book>
+</Library>
