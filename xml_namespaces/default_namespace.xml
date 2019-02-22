@@ -7,7 +7,7 @@
 <!-- While the attribute pages is part of stats.com -->
 <Book id="1" pfx:pages="300"
 	xmlns="http://www.defaultlib.com"
-	xmlns:pfx="http://www.stats.com>
+	xmlns:pfx="http://www.stats.com">
 	<Title>The metamorphisis</Title>
 	<Author>Franz Kafka</Author>
 	<!-- Overriding the {default namespace -->
