@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Undeclaring a namespace just means unbinding its prefix with "" -->
+<!-- Unbinding a prefixed namespace works only with xml 1.1 -->
+<!-- Still one can unbind the default namespace in xml 1.0 -->
+<Book xmlns="http://cooldefaultnamespace">
+	<Title>What is the name of this book</Title>
+	<Author>Forgot it</Author>
+	<!-- unbinding here -->
+	<SupperCoolTag xmlns="">
+		Secret skill
+	</SupperCoolTag>
+</Book>
